@@ -15,6 +15,6 @@ public class ContactFormValidator implements Validator {
 
 	@Override
 	public void validate(Object model, Errors errors) {
-		ValidationUtils.rejectIfEmptyOrWhitespace(errors, "ad", "required.ad", "›sim zorunlu aland˝r.");
+		ValidationUtils.rejectIfEmptyOrWhitespace(errors, "ad", "required.ad", "√ùsim zorunlu aland√Ωr.");
 	}
 }
