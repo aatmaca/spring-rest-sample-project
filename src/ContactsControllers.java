@@ -104,7 +104,7 @@ public class ContactsControllers {
 			return mav;
 		}
 		
-		// Tarih ile sorgulama yapýlýyor...		
+		// Tarih ile sorgulama yapÃ½lÃ½yor...		
 		if (basTarih.isEmpty() || bitTarih.isEmpty()) {
 			mav.addObject("ikiTarihBirdenGirilmeli", Boolean.TRUE);
 		} else {
@@ -264,7 +264,7 @@ public class ContactsControllers {
 
 	private void validateImage(MultipartFile image) {
 		if (image.isEmpty()) {
-			// Exception açýklmasýndan messages.properties içindeki açýklamaya
+			// Exception aÃ§Ã½klmasÃ½ndan messages.properties iÃ§indeki aÃ§Ã½klamaya
 			// gidecek
 			throw new RuntimeException("dosyaSecilmedi");
 		}
